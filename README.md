@@ -16,8 +16,10 @@ $ cp Pynq-Z1/base zedboard/
 $ cd zedboard
 ```
 --> bring .bsp and .img here
+
 --> generate "zedboard.spec" with the following content:
 
+```console=
 ######################################
 
 ARCH_zedboard := arm
@@ -26,6 +28,7 @@ FPGA_MANAGER_Pynq-Z1 := 0
 STAGE4_PACKAGES_zedboard := boot_leds ethernet pynq jupyter pandas uart
 
 #######################################
+```
 
 --> move other board folders from "Xilinx/PYNQ/boards" to reduce compilation time
 
