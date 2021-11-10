@@ -9,10 +9,12 @@ Steps to reproduce the build of PYNQ on ZedBoard
 5) pynq_z1_v2.6.0.img (get it from Xilinx Pynq site)
 
 ## Preparation:
+```shell=
 $ cd Xilinx/PYNQ/boards
 $ mkdir zedboard
 $ cp Pynq-Z1/base zedboard/
 $ cd zedboard
+```
 --> bring .bsp and .img here
 --> generate "zedboard.spec" with the following content:
 
@@ -28,6 +30,7 @@ STAGE4_PACKAGES_zedboard := boot_leds ethernet pynq jupyter pandas uart
 --> move other board folders from "Xilinx/PYNQ/boards" to reduce compilation time
 
 ## Compilation:
+```shell=
 $ source /tools/Xilinx/Vitis/2020.1/settings64.sh
 $ source ../../petalinux/2020.1/settings.sh
 $ petalinux-util --webtalk off
@@ -36,6 +39,7 @@ $ make delete
 $ make unmount
 $ make clean
 $ make BOARDDOR=../boards/zedboard/ PREBUILD=../boards/zedboard/pynq_z1_v2.6.0.img
+```
 
 ## SDcard preparation:
 1) Copy the contents of "Xilinx/PYNQ/sdbuild/output/boot/zedboard/" to the SD card.
