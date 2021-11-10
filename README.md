@@ -2,11 +2,11 @@
 Steps to reproduce the build of PYNQ on ZedBoard
 
 ## Prerequisites:
-1) Ubuntu 18.04.4 LTS
-2) Vitis 2020.1
-3) Petalinux 2020.1
-4) avnet-digilent-zedboard-v2020.1-final.bsp (get it from Xilinx petalinux site)
-5) pynq_z1_v2.6.0.img (get it from Xilinx Pynq site)
+1) Ubuntu 18.04.4 LTS (https://old-releases.ubuntu.com/releases/18.04.4/)vnet-digilent-zedboard-v2020.1-final.bsp
+2) Vitis 2020.1 (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/archive-vitis.html)
+3) Petalinux 2020.1 (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/archive.html)
+4) avnet-digilent-zedboard-v2020.1-final.bsp (https://www.xilinx.com/member/forms/download/xef.html?filename=avnet-digilent-zedboard-v2020.1-final.bsp)
+5) pynq_z1_v2.6.0.img (http://bit.ly/pynqz1_v2_6)
 
 ## Preparation:
 ```shell=
@@ -46,4 +46,4 @@ $ make BOARDDOR=../boards/zedboard/ PREBUILD=../boards/zedboard/pynq_z1_v2.6.0.i
 
 ## SDcard preparation:
 1) Copy the contents of "Xilinx/PYNQ/sdbuild/output/boot/zedboard/" to the SD card.
-2) Boot the Zedboard and find the IP address that it was acquired through the DHCP and open a browser and connect with "http://ip_address"
+2) Boot the Zedboard and find the IP address that it is acquired through DHCP and open a browser and connect with "http://ip_address"
