@@ -1,6 +1,8 @@
 # pynq-zedboard
 Steps to reproduce the build of PYNQ on ZedBoard
 
+![](https://img.shields.io/github/last-commit/ECSAlab/dnndk-zedboard?style=plastic)
+
 ## Prerequisites:
 1) Ubuntu 18.04.4 LTS (https://old-releases.ubuntu.com/releases/18.04.4/)
 2) Vitis 2020.1 (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/archive-vitis.html)
