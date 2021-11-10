@@ -17,11 +17,14 @@ $ cd zedboard
 --> generate "zedboard.spec" with the following content:
 
 ######################################
+
 ARCH_zedboard := arm
 BSP_zedboard := avnet-digilent-zedboard-v2020.1-final.bsp
 FPGA_MANAGER_Pynq-Z1 := 0
 STAGE4_PACKAGES_zedboard := boot_leds ethernet pynq jupyter pandas uart
+
 #######################################
+
 --> move other board folders from "Xilinx/PYNQ/boards" to reduce compilation time
 
 ## Compilation:
