@@ -2,7 +2,7 @@
 Steps to reproduce the build of PYNQ on ZedBoard
 
 ## Prerequisites:
-1) Ubuntu 18.04.4 LTS (https://old-releases.ubuntu.com/releases/18.04.4/)vnet-digilent-zedboard-v2020.1-final.bsp
+1) Ubuntu 18.04.4 LTS (https://old-releases.ubuntu.com/releases/18.04.4/)
 2) Vitis 2020.1 (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/archive-vitis.html)
 3) Petalinux 2020.1 (https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/archive.html)
 4) avnet-digilent-zedboard-v2020.1-final.bsp (https://www.xilinx.com/member/forms/download/xef.html?filename=avnet-digilent-zedboard-v2020.1-final.bsp)
