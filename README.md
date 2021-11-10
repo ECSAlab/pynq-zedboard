@@ -1,7 +1,7 @@
 # pynq-zedboard
 Steps to reproduce the build of PYNQ on ZedBoard
 
-![](https://img.shields.io/github/last-commit/ECSAlab/dnndk-zedboard?style=plastic)
+![](https://img.shields.io/github/last-commit/ECSAlab/pynq-zedboard?style=plastic)
 
 ## Prerequisites:
 1) Ubuntu 18.04.4 LTS (https://old-releases.ubuntu.com/releases/18.04.4/)
